@@ -98,6 +98,6 @@ def detect_and_track_bowling_ball(video_path):
         print("No bowling balls detected.")
 
 # 동영상 파일 경로
-video_path = r"C:\Users\ansco\OneDrive\문서\GitHub\Bowling_cam_python\Bowlling_cam_python\video2.mp4"
+video_path = "./video2.mp4"
 # 볼링공 검출 및 추적 함수 호출
 detect_and_track_bowling_ball(video_path)
